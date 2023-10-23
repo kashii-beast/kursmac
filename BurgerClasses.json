@@ -1,0 +1,37 @@
+[
+  {
+    "type": "Burgers.BigMac",
+    "object": {
+  "CutletAmount": 5533,
+  "Sesame": true,
+  "IsUnpackaged": true,
+  "Price": 12,
+  "IsEaten": true
+}
+  },
+  {
+    "type": "Burgers.McFlurry",
+    "object": {
+  "Price": 12431,
+  "Topping": 2,
+  "IsEaten": true
+}
+  },
+  {
+    "type": "Burgers.CheeseBurger",
+    "object": {
+  "Sesame": false,
+  "PutBacon": true,
+  "CutletAmount": 7,
+  "Price": 45,
+  "IsEaten": false
+}
+  },
+  {
+    "type": "Burgers.HappyMeal",
+    "object": {
+  "Price": 7454,
+  "IsUnpackaged": true
+}
+  }
+]

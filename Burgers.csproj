@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows10.0.22621.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <UseWindowsForms>False</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="mcdonalds_PNG2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="mcdonalds_PNG2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ModalDialogChangeValue.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ModalDialogMethodInvoke.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ModalDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ModalDialogMcFlurry.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
